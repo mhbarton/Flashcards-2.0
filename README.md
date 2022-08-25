@@ -7,10 +7,10 @@ Have you ever needed some extra practice to understand concepts? Well look no fu
 
 ## Setup
 - Clone down the Repo
-- In your terminal, 'git clone'
+- In your terminal, `git clone`
 - Cd into your directory
-- Run 'npm install'
-- To run and play the game: run 'node index.js'
+- Run `npm install`
+- To run and play the game: run `node index.js`
 
 ## Project Specs
 The project specs and rubric can be found [here](https://frontend.turing.edu/projects/flash-cards.html)
