@@ -20,6 +20,10 @@ it('should be a function', () =>{
 
 it('should be an instance of Game', () =>{
   expect(game).to.be.an.instanceOf(Game);
-})
+});
+
+it('should keep track of the user\'s current round', () =>{
+  expect(game.currentRound).to.be.an.instanceOf(Round)
+});
 
 });
