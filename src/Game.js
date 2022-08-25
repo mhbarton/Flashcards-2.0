@@ -31,11 +31,11 @@ return this.currentRound
 
 start(){
 this.createRound();
-this.printMessage(this.createDeck(), this.createRound());
+this.printMessage(this.createDeck());
 this.printQuestion(this.createRound());
 }
 
-  printMessage(deck, round) {
+  printMessage(deck) {
     console.log(`Welcome to FlashCards! You are playing with ${deck.countCards()} cards.
 -----------------------------------------------------------------------`)
   }
